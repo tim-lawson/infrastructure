@@ -11,7 +11,6 @@ ssh -t -L ${port}:localhost:${port} bp "lsub $@ --port ${port} --cmd 'jupyter no
 
 echo "Connection closed. Please make sure the job is cancelled."
 
-#ssh -N -f -L localhost:8354:localhost:8354 -J ei19760@seis.bris.ac.uk ei19760@bp1-login01b.acrc.bris.ac.uk
+#ssh -N -f -L localhost:8354:localhost:8354 -J qr23940@seis.bris.ac.uk qr23940@bp1-login01b.acrc.bris.ac.uk
 #run this remotely to start Jupyter listening on localhost:8354
 #jupyter lab --no-browser --port=8354
-
